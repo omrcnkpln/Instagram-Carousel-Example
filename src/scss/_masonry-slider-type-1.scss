@@ -1,0 +1,96 @@
+.masonry-slider-type-1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  .slider-btn {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    .btn {
+      i {
+        color: #fff;
+        font-size: 41px;
+      }
+    }
+    &:hover {
+      .btn {
+        i {
+          color: #bbb;
+        }
+      }
+    }
+    @include respond(small) {
+      &.slider-btn-left {
+        margin-right: -50px;
+      }
+      &.slider-btn-right {
+        margin-left: -50px;
+      }
+    }
+  }
+  .slider-size {
+    // overflow: hidden;
+    position: relative;
+    // padding: 0;
+    .owl-dots {
+      display: none;
+    }
+    .owl-nav {
+    }
+    .slider-wrapper {
+      overflow: hidden;
+      //   width: inherit;
+      width: auto;
+      height: 550px;
+      // display: none;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: -5px;
+      .image-wrapper {
+        // width: 100%;
+        // max-width: 33.3333%;
+        width: 33.3333%;
+        height: max-content;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        overflow: hidden;
+        // border-right: 5px solid #fff;
+        // border-bottom: 5px solid #fff;
+        img {
+          width: 100%;
+          transition: 333ms transform ease-out;
+        }
+        &:hover {
+          img {
+            transform: scale(1.1);
+          }
+        }
+        @include respond(large) {
+          width: 50%;
+        }
+      }
+      &.active {
+        // display: flex;
+      }
+    }
+  }
+}
+
+// Extra extra large devices (tv, 1440px and up)
+@media screen and (min-width: 1440px) {
+}
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (max-width: 1200px) {
+}
+// Large devices (desktops, 992px and up)
+@media screen and (max-width: 992px) {
+}
+// Medium devices (tablets, 768px and up)
+@media screen and (max-width: 768px) {
+}
+// Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 576px) {
+}
+// Extra Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 456px) {
+}
