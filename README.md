@@ -3,7 +3,7 @@
 With :
 
     XD, HTML, CSS3, CSS media query, CSS Flexbox, CSS Grid, SCSS, SASS, GRUNTJS, BOOTSTRAP, CSS ANIMATIONS, Animate.Css
-    JQUERY, JQUERY ANIMATE, JAVASCRIPT
+    JQUERY, JQUERY ANIMATE, JAVASCRIPT, Owl Carousel
     
 Publishing Here :
 
